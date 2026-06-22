@@ -1,4 +1,23 @@
 {
   "version": 1,
-  "templates": []
+  "templates": [
+    {
+      "id": "welcome-minimal",
+      "name": "Welcome — minimal",
+      "category": "welcome",
+      "description": "Clean welcome with a single call-to-action. Works for SaaS onboarding and newsletter sign-ups.",
+      "thumbnail_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/welcome-minimal.png",
+      "html_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/welcome-minimal.html",
+      "variables": ["first_name", "company_name", "cta_url"]
+    },
+    {
+      "id": "newsletter-monthly",
+      "name": "Newsletter — monthly digest",
+      "category": "newsletter",
+      "description": "Three-section monthly roundup. Headline story plus two follow-up blocks. Good for product update digests.",
+      "thumbnail_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/newsletter-monthly.png",
+      "html_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/newsletter-monthly.html",
+      "variables": ["first_name", "company_name", "month_year", "lead_url"]
+    }
+  ]
 }
