@@ -11,6 +11,15 @@
       "variables": ["first_name", "company_name", "cta_url"]
     },
     {
+      "id": "welcome-trial",
+      "name": "Welcome — trial start",
+      "category": "welcome",
+      "description": "SaaS trial kickoff with day counter and a three-step onboarding checklist.",
+      "thumbnail_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/welcome-trial.png",
+      "html_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/welcome-trial.html",
+      "variables": ["first_name", "company_name", "trial_days", "app_url"]
+    },
+    {
       "id": "newsletter-monthly",
       "name": "Newsletter — monthly digest",
       "category": "newsletter",
@@ -18,6 +27,69 @@
       "thumbnail_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/newsletter-monthly.png",
       "html_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/newsletter-monthly.html",
       "variables": ["first_name", "company_name", "month_year", "lead_url"]
+    },
+    {
+      "id": "newsletter-single-story",
+      "name": "Newsletter — single story",
+      "category": "newsletter",
+      "description": "Long-form essay layout. One main piece per send. For writers who do Stratechery-style posts.",
+      "thumbnail_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/newsletter-single-story.png",
+      "html_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/newsletter-single-story.html",
+      "variables": ["first_name", "company_name", "post_title", "post_url"]
+    },
+    {
+      "id": "product-launch",
+      "name": "Product launch",
+      "category": "announcement",
+      "description": "Hero header plus three feature blocks and a single CTA. Use for new product or major feature launches.",
+      "thumbnail_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/product-launch.png",
+      "html_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/product-launch.html",
+      "variables": ["first_name", "company_name", "cta_url"]
+    },
+    {
+      "id": "changelog",
+      "name": "Changelog — release notes",
+      "category": "announcement",
+      "description": "Per-release update with Added / Improved / Fixed sections. Recurring, low-effort format.",
+      "thumbnail_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/changelog.png",
+      "html_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/changelog.html",
+      "variables": ["company_name", "version", "changelog_url"]
+    },
+    {
+      "id": "weekly-digest",
+      "name": "Digest — five links",
+      "category": "digest",
+      "description": "Compact five-pick weekly roundup. Numbered links with one-line commentary each. Hacker Newsletter style.",
+      "thumbnail_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/weekly-digest.png",
+      "html_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/weekly-digest.html",
+      "variables": ["first_name", "company_name"]
+    },
+    {
+      "id": "password-reset",
+      "name": "Password reset",
+      "category": "transactional",
+      "description": "Transactional reset email. Single CTA, expiration notice, fallback URL, and an ignore-if-not-you note.",
+      "thumbnail_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/password-reset.png",
+      "html_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/password-reset.html",
+      "variables": ["first_name", "reset_url", "expires_in"]
+    },
+    {
+      "id": "email-verification",
+      "name": "Email verification",
+      "category": "transactional",
+      "description": "Account confirmation email. One CTA, plain-text fallback URL, and a safety note for the wrong-recipient case.",
+      "thumbnail_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/email-verification.png",
+      "html_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/email-verification.html",
+      "variables": ["first_name", "verify_url"]
+    },
+    {
+      "id": "receipt",
+      "name": "Receipt — order confirmation",
+      "category": "transactional",
+      "description": "Order/payment confirmation with order metadata and an itemized table. For e-commerce and SaaS billing.",
+      "thumbnail_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/receipt.png",
+      "html_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/receipt.html",
+      "variables": ["first_name", "order_number", "order_date", "order_total"]
     }
   ]
 }
